@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component renders the complete form 1`] = `
+<form
+  className="center"
+  onSubmit={[Function]}
+>
+  <label>
+    Search: 
+  </label>
+  <input
+    name="search"
+    onChange={[Function]}
+    placeholder="Search Title"
+    required={true}
+    type="text"
+    value=""
+  />
+  <button
+    type="submit"
+  >
+    Search
+  </button>
+  <label>
+    Print Type: 
+  </label>
+  <select
+    name="Print Type"
+    onChange={[Function]}
+    value="all"
+  >
+    <option
+      defaultValue="all"
+    >
+      All
+    </option>
+    <option
+      value="books"
+    >
+      Book
+    </option>
+    <option
+      value="magazines"
+    >
+      Magazines
+    </option>
+  </select>
+  <select
+    name="filter"
+    onChange={[Function]}
+    value="full"
+  >
+    <option
+      defaultValue="full"
+    >
+      Full Text
+    </option>
+    <option
+      value="partial"
+    >
+      Partial Text
+    </option>
+    <option
+      value="free-ebooks"
+    >
+      Free Ebooks
+    </option>
+    <option
+      value="paid-ebooks"
+    >
+      Paid Ebooks
+    </option>
+    <option
+      value="ebooks"
+    >
+      Ebooks Only
+    </option>
+  </select>
+</form>
+`;
